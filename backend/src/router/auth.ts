@@ -6,7 +6,7 @@ const router = Router();
 
 const CLIENT_URL =
   process.env.AUTH_REDIRECT_URL ?? 'http://localhost:5173/game/random';
-const JWT_SECRET = process.env.JWT_SECRET || 'dea35035ec63c5c13d25af407286138e0d7f8e74ad1b8793d1cf9a0ef8d37122';
+const JWT_SECRET = process.env.JWT_SECRET;
 
 interface User {
   id: string;
